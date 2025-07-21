@@ -21,9 +21,13 @@ export const HeroSection = () => {
                     </h1>
 
                     <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-                    Systems Engineer specializing in CRM platforms (Salesforce focus) and software development (including mobile). 
-                    3 years' experience leading the design, implementation, and optimization of solutions for improved efficiency and user experience. 
-                    Results-oriented with a commitment to continuous innovation and tangible impact.
+                    
+                    Systems Engineer with 3 years of experience as a Salesforce Developer, specializing in CRM platforms. 
+                    Proven track record in designing, developing, and deploying scalable Salesforce solutions,
+                    including seamless integrations with ERP systems via REST and SOAP APIs. Led partial and 
+                    full data migrations across Salesforce orgs with varying complexities, user volumes, and business models. 
+                    Skilled in optimizing large-scale processes using Batch Apex and in developing dynamic interfaces through 
+                    Lightning Web Components (LWC), complemented by robust backend logic in Apex (Triggers, Schedulables, and Queues). 
                     </p>
 
                     <div className="pt-4 opacity-0 animate-fade-in-delay-4">
@@ -31,6 +35,20 @@ export const HeroSection = () => {
                             View My Work
                         </a>
                     </div>
+                    <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
+                            <a href="#contact" className="cosmic-button">
+                                {" "}
+                                Get In Touch
+                            </a>
+
+                            <a
+                                href="https://drive.google.com/file/d/1lirMk9UhS-WM0gtEoCtiNjXUpm0zc2ig/view?usp=sharing" 
+                                target="_blank"
+                                className="cosmic-button"
+                            >
+                                Download CV
+                            </a>
+                        </div>
                 </div>
             </div>
 

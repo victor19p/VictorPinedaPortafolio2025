@@ -25,7 +25,7 @@ export const AboutSection = () => {
                         <p className="text-muted-foreground">
                             With a strong focus on results and a commitment to continuous improvement,
                             I leverage technological innovation to deliver tangible impact in every project.
-                            My expertise includes Apex development, custom UI creation, advanced automation, and
+                            My expertise includes Apex development, custom UI creation with Lightning Web Components, advanced automation, and
                             seamless integration with other systems.
 
                         </p>
@@ -37,7 +37,7 @@ export const AboutSection = () => {
                             </a>
 
                             <a
-                                href="https://drive.google.com/file/d/1p3OQhOiBfJEdCO89pTdvqCaj04plOlMq/view?usp=sharing" 
+                                href="https://drive.google.com/file/d/1lirMk9UhS-WM0gtEoCtiNjXUpm0zc2ig/view?usp=sharing" 
                                 target="_blank"
                                 className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300"
                             >
@@ -99,7 +99,7 @@ export const AboutSection = () => {
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg">Mobile Development</h4>
                                     <p className="text-muted-foreground">
-                                        Developing cross-platform mobile applications using Flutter and React Native.
+                                        Developing cross-platform mobile applications using Flutter, C# Maiu and React Native.
                                     </p>
                                 </div>
                             </div>

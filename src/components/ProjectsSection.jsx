@@ -2,35 +2,48 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 import adminCert from "../assets/certifications/sfAdmin.png";
 import devCert from "../assets/certifications/sfDev1.png";
 import appBuilderCert from "../assets/certifications/sfAppBuilder.png";
+import agentforceCert from "../assets/certifications/sfAgentforce.png";
+
 
 const projects = [
     {
         id: 1,
-        title: "Administrator",
-        description: "Official Salesforce certification that validates knowledge in platform configuration and administration.",
-        image: adminCert,
-        tags: ["Salesforce", "Administration", "CRM"],
+        title: "Platform Developer I",
+        description: "This certification recognizes my ability to develop and deploy business logic and user interfaces using the programmatic capabilities of the Lightning Platform. I demonstrate skills in Apex, SOQL, process automation, UI development, and code testing within Salesforce.",
+        image: devCert,
+        tags: ["Development", "Apex", "Lightning", "SOQL", "Automation", "Programming"],
         demoUrl: "#",
         githubUrl: "#",
     },
     {
         id: 2,
-        title: "Platform Developer I",
-        description: "Certification that demonstrates skills in developing custom applications on the Salesforce platform.",
-        image: devCert,
-        tags: ["Salesforce", "Development", "Apex"],
+        title: "Agentforce Specialist",
+        description: "This certification demonstrates my advanced knowledge in configuring and managing AI agents in Salesforce. I master prompt creation, Data Cloud integration, agent customization for sales and service, and ethical AI practices.",
+        image: agentforceCert,
+        tags: ["Artificial Intelligence", "Automation", "Prompt Engineering", "Data Cloud", "Sales", "Service"],
         demoUrl: "#",
         githubUrl: "#",
     },
     {
         id: 3,
-        title: "Platform App Builder",
-        description: "Certification that validates the ability to create custom applications using Salesforce's declarative tools.",
-        image: appBuilderCert,
-        tags: ["Salesforce", "App Builder", "Declarative"],
+        title: "Administrator",
+        description: "This certification validates my ability to manage, configure, and optimize the Salesforce platform, ensuring security, data quality, and process automation. As a certified administrator, I am responsible for user management, platform customization, reporting, and continuously improving the user experience.",
+        image: adminCert,
+        tags: ["CRM", "Automation", "Security", "Data", "Reporting"],
         demoUrl: "#",
         githubUrl: "#",
     },
+    
+    {
+        id: 4,
+        title: "Platform App Builder",
+        description: "This certification validates my expertise in designing, building, and deploying custom applications on Salesforce using declarative tools. I master data modeling, process automation, UI customization, and app deployment on the platform.",
+        image: appBuilderCert,
+        tags: ["Declarative", "Automation", "Data Modeling", "Lightning"],
+        demoUrl: "#",
+        githubUrl: "#",
+    },
+    
 ];
 
 export const ProjectsSection = () => {
