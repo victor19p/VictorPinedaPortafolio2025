@@ -4,7 +4,7 @@ export const HeroSection = () => {
     return (
         <section
             id="hero"
-            className="relative min-h-screen flex flex-col items-center justify-center px-4"
+            className="relative min-h-screen flex flex-col items-center justify-center px-2"
         >
             <div className="container max-w-4xl mx-auto text-center z-10">
                 <div className="space-y-6">
@@ -20,12 +20,11 @@ export const HeroSection = () => {
                         </span>
                     </h1>
 
-                    <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
+                    <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3 text-justify">
                     
                     Systems Engineer with 3 years of experience as a Salesforce Developer, specializing in CRM platforms. 
                     Proven track record in designing, developing, and deploying scalable Salesforce solutions,
-                    including seamless integrations with ERP systems via REST and SOAP APIs. Led partial and 
-                    full data migrations across Salesforce orgs with varying complexities, user volumes, and business models. 
+                    including seamless integrations with ERP systems via REST and SOAP APIs.
                     Skilled in optimizing large-scale processes using Batch Apex and in developing dynamic interfaces through 
                     Lightning Web Components (LWC), complemented by robust backend logic in Apex (Triggers, Schedulables, and Queues). 
                     </p>
