@@ -1,4 +1,4 @@
-import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import { ArrowRight, ExternalLink, Github, Code2, Workflow, GitBranch } from "lucide-react";
 import adminCert from "../assets/certifications/sfAdmin.png";
 import devCert from "../assets/certifications/sfDev1.png";
 import appBuilderCert from "../assets/certifications/sfAppBuilder.png";
@@ -79,8 +79,8 @@ export const ProjectsSection = () => {
                             key={key}
                             className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
                         >
-                            <div className="h-28 overflow-hidden">
-                                <Github size={15} className="w-full h-full object-contain transition-transform duration-500 group-hover:scale-110"/>
+                            <div className="h-28 overflow-hidden flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-blue-900/20 dark:to-indigo-900/20">
+                                <Workflow size={40} className="text-blue-600 dark:text-blue-400 transition-transform duration-500 group-hover:scale-110"/>
                             </div>
 
                             <div className="p-6">
