@@ -20,9 +20,9 @@ export const Home = () => {
     <main>
         <HeroSection />
         <div className="block md:hidden w-full h-[1px] bg-border/50 my-4" />
-        <AboutSection />
-        <div className="block md:hidden w-full h-[1px] bg-border/50 my-4" />
         <ProjectsSection />
+        <div className="block md:hidden w-full h-[1px] bg-border/50 my-4" />
+        <AboutSection />
         <div className="block md:hidden w-full h-[1px] bg-border/50 my-4" />
         <SkillsSection />
         <div className="block md:hidden w-full h-[1px] bg-border/50 my-4" />
