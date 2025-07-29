@@ -41,7 +41,7 @@ export const HeroSection = () => {
                             </a>
 
                             <a
-                                href="https://drive.google.com/file/d/1lirMk9UhS-WM0gtEoCtiNjXUpm0zc2ig/view?usp=sharing" 
+                                href="https://drive.google.com/drive/folders/1IoDpCn09-jMFp4FrHhJT6NzGJhgJtLlb?usp=sharing" 
                                 target="_blank"
                                 className="cosmic-button"
                             >
