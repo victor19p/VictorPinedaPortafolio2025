@@ -22,7 +22,7 @@ export const HeroSection = () => {
 
                     <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3 text-justify">
                     
-                    Systems Engineer with 3 years of experience as a Salesforce Developer, specializing in CRM platforms. 
+                    Systems Engineer with experience as a Salesforce Developer, specializing in CRM platforms. 
                     Proven track record in designing, developing, and deploying scalable Salesforce solutions,
                     including seamless integrations with ERP systems via REST and SOAP APIs.
                     Skilled in optimizing large-scale processes using Batch Apex and in developing dynamic interfaces through 

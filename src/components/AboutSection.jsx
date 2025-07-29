@@ -16,7 +16,7 @@ export const AboutSection = () => {
                         </h3>
 
                         <p className="text-muted-foreground">
-                            A Systems Engineer with 3 years of professional experience
+                            A Systems Engineer with professional experience
                             specializing in CRM platforms, particularly Salesforce.
                             I excel in designing, implementing, and optimizing solutions that enhance operational
                             efficiency and user experience.
