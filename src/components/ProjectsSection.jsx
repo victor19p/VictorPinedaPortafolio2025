@@ -1,4 +1,4 @@
-import { ArrowRight, ExternalLink, Github, Code2, Workflow, GitBranch } from "lucide-react";
+import { ArrowRight, ExternalLink, Github, Code2, Workflow, GitBranch, Layers, Database } from "lucide-react";
 import adminCert from "../assets/certifications/sfAdmin.png";
 import devCert from "../assets/certifications/sfDev1.png";
 import appBuilderCert from "../assets/certifications/sfAppBuilder.png";
@@ -56,11 +56,42 @@ const proj = [
             "REST API", "Queueable", "Custom Metadata Types", "Service Layer", "Repository Pattern", "DTO"],
         demoUrl: "https://github.com/victor19p/salesforce-azure-devops-integration/tree/main",
         githubUrl: "https://github.com/victor19p/salesforce-azure-devops-integration/tree/main",
+        linkType: "github",
+        icon: "workflow",
     },
+    {
+        id: 2,
+        title: "Salesforce Development Frameworks & Patterns Collection",
+        description: "Production-ready implementation of enterprise Salesforce patterns including fflib frameworks, multiple trigger architectures, and comprehensive mocking strategies. Demonstrates Platform Developer expertise with real-world examples and best practices.",
+        image: devCert,
+        tags: ["fflib Framework", "Apex Enterprise Patterns", "ApexMocks", "Trigger Handler Patterns", "Platform Developer II", 
+            "DML Optimization", "Bulk Processing", "Test Automation", "Code Coverage", "SFDX", "CI/CD Ready"],
+        demoUrl: "https://github.com/victor19p/sf-dev-portfolio",
+        githubUrl: "https://github.com/victor19p/sf-dev-portfolio",
+        linkType: "github",
+        icon: "layers",
+    }
     
 ];
 
 export const ProjectsSection = () => {
+    // Función para obtener el ícono correcto para cada proyecto
+    const getProjectIcon = (iconType) => {
+        switch(iconType) {
+            case "workflow":
+                return <Workflow size={40} className="text-blue-600 dark:text-blue-400 transition-transform duration-500 group-hover:scale-110"/>;
+            case "layers":
+                return <Layers size={40} className="text-green-600 dark:text-green-400 transition-transform duration-500 group-hover:scale-110"/>;
+            case "code":
+                return <Code2 size={40} className="text-purple-600 dark:text-purple-400 transition-transform duration-500 group-hover:scale-110"/>;
+            case "database":
+                return <Database size={40} className="text-orange-600 dark:text-orange-400 transition-transform duration-500 group-hover:scale-110"/>;
+            case "gitbranch":
+                return <GitBranch size={40} className="text-red-600 dark:text-red-400 transition-transform duration-500 group-hover:scale-110"/>;
+            default:
+                return <Workflow size={40} className="text-blue-600 dark:text-blue-400 transition-transform duration-500 group-hover:scale-110"/>;
+        }
+    };
     return (
         <section id="projects" className="py-24 px-4 relative">
             <div className="container mx-auto max-w-5xl">
@@ -80,7 +111,7 @@ export const ProjectsSection = () => {
                             className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover"
                         >
                             <div className="h-28 overflow-hidden flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 dark:from-blue-900/20 dark:to-indigo-900/20">
-                                <Workflow size={40} className="text-blue-600 dark:text-blue-400 transition-transform duration-500 group-hover:scale-110"/>
+                                {getProjectIcon(project.icon)}
                             </div>
 
                             <div className="p-6">
